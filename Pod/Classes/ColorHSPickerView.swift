@@ -89,7 +89,7 @@ public class ColorHSPickerView: UIControl {
         
         let bundle = NSBundle(forClass: self.dynamicType)
         var image = UIImage(named: "colormap", inBundle: bundle, compatibleWithTraitCollection: nil)
-        image = UIImage(named: "colormap")
+//        image = UIImage(named: "colormap")
         self.colorMapImageView = ColorHSPickerView.initColorMapImageView(image!)
         
         super.init(coder: aDecoder)
