@@ -20,7 +20,7 @@
   "resource_bundles": {
     "ColorHSPicker": [
       "Pod/Assets/*.{png, jpg}",
-      "Assets/**/*.*"
+      "Pod/Assets/*.xcassets"
     ]
   }
 }

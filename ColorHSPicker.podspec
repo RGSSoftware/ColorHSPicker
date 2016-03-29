@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ColorHSPicker"
-  s.version          = "0.1.6"
+  s.version          = "0.1.7"
   s.summary          = "An HS color-picker for the iOS."
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'ColorHSPicker' => ['Pod/Assets/*.{png, jpg}', 'Pod/Assets/**/*.*']
+    'ColorHSPicker' => ['Pod/Assets/*.{png, jpg}', 'Pod/Assets/*.xcassets']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
