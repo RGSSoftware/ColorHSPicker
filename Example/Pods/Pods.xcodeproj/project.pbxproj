@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		00540E90DDD13C9F80EDBA6A3F6036FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		222AF3B51CAADEB500CD484B /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DAA5032D5E3B371BCEB2C014E1F7BE /* colormap.png */; };
+		222AF3B91CAAE12F00CD484B /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DAA5032D5E3B371BCEB2C014E1F7BE /* colormap.png */; };
 		2F39E19182C7B2CAE158D20484BF32C9 /* Pods-ColorHSPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BB75C6FEB1DBCD22956AEDE8DC5F47 /* Pods-ColorHSPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44CD7161E6EF1DC29B70DE65FAB6012F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		4A4741FF2A6056C78C033A66C1B9D024 /* ColorHSPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB2ABAD9DABC490E14BACFBD61AE6E /* ColorHSPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -412,6 +413,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222AF3B91CAAE12F00CD484B /* colormap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

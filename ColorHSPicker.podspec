@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ColorHSPicker"
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.summary          = "An HS color-picker for the iOS."
 
 # This description is used to generate tags and improve search results.
