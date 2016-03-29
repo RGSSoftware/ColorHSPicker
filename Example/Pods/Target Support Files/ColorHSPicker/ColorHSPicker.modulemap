@@ -1,0 +1,6 @@
+framework module ColorHSPicker {
+  umbrella header "ColorHSPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,5 @@
 # ColorHSPicker
 
-[![CI Status](http://img.shields.io/travis/Randel Smith/ColorHSPicker.svg?style=flat)](https://travis-ci.org/Randel Smith/ColorHSPicker)
 [![Version](https://img.shields.io/cocoapods/v/ColorHSPicker.svg?style=flat)](http://cocoapods.org/pods/ColorHSPicker)
 [![License](https://img.shields.io/cocoapods/l/ColorHSPicker.svg?style=flat)](http://cocoapods.org/pods/ColorHSPicker)
 [![Platform](https://img.shields.io/cocoapods/p/ColorHSPicker.svg?style=flat)](http://cocoapods.org/pods/ColorHSPicker)
@@ -22,7 +21,7 @@ pod "ColorHSPicker"
 
 ## Author
 
-Randel Smith, homankids@gmail.com
+Randel Smith
 
 ## License
 

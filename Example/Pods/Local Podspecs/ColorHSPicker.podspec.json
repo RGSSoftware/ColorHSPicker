@@ -1,0 +1,25 @@
+{
+  "name": "ColorHSPicker",
+  "version": "0.1.0",
+  "summary": "A short description of ColorHSPicker.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ColorHSPicker",
+  "license": "MIT",
+  "authors": {
+    "Randel Smith": "homankids@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ColorHSPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ColorHSPicker": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
