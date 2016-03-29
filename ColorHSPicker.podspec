@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'ColorHSPicker' => ['Pod/Assets/*.png']
+    'ColorHSPicker' => ['Pod/Assets/*.{png, jpg}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

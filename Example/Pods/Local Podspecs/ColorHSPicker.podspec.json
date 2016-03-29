@@ -1,15 +1,15 @@
 {
   "name": "ColorHSPicker",
   "version": "0.1.0",
-  "summary": "A short description of ColorHSPicker.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/ColorHSPicker",
+  "summary": "An HS color-picker for the iOS.",
+  "description": "reusable, simple color picker for iOS.\n* Works on iPhone\n* Works on iPad",
+  "homepage": "https://github.com/RGSSoftware/ColorHSPicker",
   "license": "MIT",
   "authors": {
-    "Randel Smith": "homankids@gmail.com"
+    "Randel Smith": "rs@randelsmith.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ColorHSPicker.git",
+    "git": "https://github.com/RGSSoftware/ColorHSPicker.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -19,7 +19,7 @@
   "source_files": "Pod/Classes/**/*",
   "resource_bundles": {
     "ColorHSPicker": [
-      "Pod/Assets/*.png"
+      "Pod/Assets/*.{png, jpg}"
     ]
   }
 }

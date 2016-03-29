@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		168F622AE3C799EDC4DC2EAA2BDF3373 /* ColorHSPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EABD833C479632F8FFB85269F8AF91CF /* ColorHSPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		222AF38D1CAAB3FB00CD484B /* ThumbViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AF38B1CAAB3FB00CD484B /* ThumbViewControl.swift */; };
-		222AF38E1CAAB3FB00CD484B /* ColorHSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AF38C1CAAB3FB00CD484B /* ColorHSPickerView.swift */; };
-		222AF3931CAAB7D300CD484B /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 222AF3921CAAB7D300CD484B /* colormap.png */; };
+		00540E90DDD13C9F80EDBA6A3F6036FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		222AF3941CAABBF700CD484B /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DAA5032D5E3B371BCEB2C014E1F7BE /* colormap.png */; };
 		2F39E19182C7B2CAE158D20484BF32C9 /* Pods-ColorHSPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BB75C6FEB1DBCD22956AEDE8DC5F47 /* Pods-ColorHSPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FABD74C98DAC98A16CEEB5923F77746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		3C4011A879EB2D9DD52084C23892C80F /* ColorHSPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5AC4AC0C085C43A5CB0441C9E74B01 /* ColorHSPicker-dummy.m */; };
-		3F2157DCAE7B5772A3C335D063915020 /* ColorHSPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0752211ACB11934D6897EFC4B9AF453 /* ColorHSPicker.bundle */; };
 		44CD7161E6EF1DC29B70DE65FAB6012F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4A4741FF2A6056C78C033A66C1B9D024 /* ColorHSPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB2ABAD9DABC490E14BACFBD61AE6E /* ColorHSPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F191B82D81F347851EAB7E1D31B7D9E /* ColorHSPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0752211ACB11934D6897EFC4B9AF453 /* ColorHSPicker.bundle */; };
+		551CDFC274ABCA0873F0442D2A0FA9E8 /* ThumbViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856B89CAEB0DFA611F7D78620B3CDD2C /* ThumbViewControl.swift */; };
 		7E4386453C828A18357DED8C7BC92BFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		9BD86E5EE49095B7134F5A3635C1F28E /* Pods-ColorHSPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA768FFE287D6865E7B279A6A8B867 /* Pods-ColorHSPicker_Example-dummy.m */; };
 		A32F660CF84E8E36937CA3827B52C305 /* Pods-ColorHSPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6C7303F84392BEEF45082DB061F601 /* Pods-ColorHSPicker_Tests-dummy.m */; };
+		AE6238B72718E604957470BF23698B05 /* ColorHSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E1D7E86433C82A893594F63AF3952 /* ColorHSPickerView.swift */; };
+		C1F279140F98F6C73A8288DD71651030 /* ColorHSPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 871FF12EE05755D067428B32F7EBA3A5 /* ColorHSPicker-dummy.m */; };
 		D4FFC9BC0DECA5DABE0404EEFBFC36F6 /* Pods-ColorHSPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB5071FBFF27FD2B978984BF0A66219 /* Pods-ColorHSPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A6BC8B86CD8FC2506298785034F62B90 /* PBXContainerItemProxy */ = {
+		3E3FDAF5794D8E55BCA79410647529C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 82836F5310A0146E8C8520DED54ED915;
+			remoteGlobalIDString = 3B0DDEFAB11470BB6106004C6725FFD0;
 			remoteInfo = "ColorHSPicker-ColorHSPicker";
 		};
 		A7151FE328C00A8F451007BB28F2D054 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7680DCE79A78212D0327CA7A93F5E75F;
+			remoteGlobalIDString = ACB2B30B66DC3A9DB3ED5BE76C1527ED;
 			remoteInfo = ColorHSPicker;
 		};
 		D8ED2D34999601999B24849B1AD47F5D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7680DCE79A78212D0327CA7A93F5E75F;
+			remoteGlobalIDString = ACB2B30B66DC3A9DB3ED5BE76C1527ED;
 			remoteInfo = ColorHSPicker;
 		};
 /* End PBXContainerItemProxy section */
@@ -51,37 +51,37 @@
 		05468BDA2E29109F734B26555103A378 /* Pods-ColorHSPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorHSPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0CDB87A39BF174B55F1E017DFAD46085 /* Pods-ColorHSPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorHSPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0DA102AE5ADE12D06C516A01E06FC054 /* Pods_ColorHSPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorHSPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		222AF38B1CAAB3FB00CD484B /* ThumbViewControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbViewControl.swift; sourceTree = "<group>"; };
-		222AF38C1CAAB3FB00CD484B /* ColorHSPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHSPickerView.swift; sourceTree = "<group>"; };
-		222AF3921CAAB7D300CD484B /* colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colormap.png; path = Assets/colormap.png; sourceTree = "<group>"; };
 		2322DFEEB203E4D9F21C5966B2E1738E /* ColorHSPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorHSPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CCC4C849628ADDEB3968521CE5B269 /* Pods-ColorHSPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorHSPicker_Tests-resources.sh"; sourceTree = "<group>"; };
 		2CBA768FFE287D6865E7B279A6A8B867 /* Pods-ColorHSPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorHSPicker_Example-dummy.m"; sourceTree = "<group>"; };
-		3BD94C1FE624C4F0EB30A034E8CCF426 /* ColorHSPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorHSPicker.xcconfig; sourceTree = "<group>"; };
+		32E5BCAFE70E4493956C3B010B2D04A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		419A83F7D95D5C9394C3F94E050ED687 /* Pods-ColorHSPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ColorHSPicker_Example.modulemap"; sourceTree = "<group>"; };
+		45CF64B9E61C09D248AAF08C0B4A8482 /* ColorHSPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorHSPicker-prefix.pch"; sourceTree = "<group>"; };
 		52BD06326BC24891950AA7529660A194 /* Pods-ColorHSPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorHSPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
 		558E21AF1E50113DAC71218200D36030 /* Pods-ColorHSPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorHSPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5C5CA5A880C7F64DDEEB04A240D46149 /* Pods-ColorHSPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorHSPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5C656B73BDCC0DC36F07DD080F52EA3C /* Pods-ColorHSPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorHSPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5CBB85F71BCF1E78CD82388EC7A7DAA4 /* Pods-ColorHSPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorHSPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		64B66B74C80258F6323F4B3C740129C2 /* Pods-ColorHSPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ColorHSPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		66E1AE24E516566E636A42EC2A7568E6 /* ColorHSPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorHSPicker.xcconfig; sourceTree = "<group>"; };
+		856B89CAEB0DFA611F7D78620B3CDD2C /* ThumbViewControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThumbViewControl.swift; sourceTree = "<group>"; };
+		871FF12EE05755D067428B32F7EBA3A5 /* ColorHSPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorHSPicker-dummy.m"; sourceTree = "<group>"; };
 		97E5BEF63B7A49E558317B24BE5D382A /* Pods-ColorHSPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorHSPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A0752211ACB11934D6897EFC4B9AF453 /* ColorHSPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorHSPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BBEF888B0E62603C060FA41BA3AA80 /* Pods-ColorHSPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorHSPicker_Example-resources.sh"; sourceTree = "<group>"; };
+		A7DAA5032D5E3B371BCEB2C014E1F7BE /* colormap.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = colormap.png; sourceTree = "<group>"; };
+		B029F715221F66259C5F0088A37E3B73 /* ColorHSPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ColorHSPicker.modulemap; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2B7D62E47DB9AA19296381F7A553416 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8238E21B64C5F990F6262AB108F0AA8 /* ColorHSPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ColorHSPicker.modulemap; sourceTree = "<group>"; };
-		CE4DD2EEC5B33142AD0CCFDB31975381 /* ColorHSPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorHSPicker-prefix.pch"; sourceTree = "<group>"; };
 		D15D505BC8F04A1BFB8DA0F836746503 /* Pods-ColorHSPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorHSPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D25EF3CFB82E876727B6B79E11BAFEBB /* Pods_ColorHSPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorHSPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E1C953B855FD6F8D2F716ECEB0D1C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EABD833C479632F8FFB85269F8AF91CF /* ColorHSPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorHSPicker-umbrella.h"; sourceTree = "<group>"; };
 		EC6C7303F84392BEEF45082DB061F601 /* Pods-ColorHSPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorHSPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		EE8E1D7E86433C82A893594F63AF3952 /* ColorHSPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorHSPickerView.swift; sourceTree = "<group>"; };
 		EEB5071FBFF27FD2B978984BF0A66219 /* Pods-ColorHSPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorHSPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F52C7F01781974FCF3B790678FD043D5 /* Pods-ColorHSPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorHSPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FA5AC4AC0C085C43A5CB0441C9E74B01 /* ColorHSPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorHSPicker-dummy.m"; sourceTree = "<group>"; };
-		FFCAB71E188712ED387A356426EDF531 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFB2ABAD9DABC490E14BACFBD61AE6E /* ColorHSPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorHSPicker-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,71 +101,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E633788A7093E1ED83175AD5FD5ED635 /* Frameworks */ = {
+		89C5755D338883FEBDF7BFA7C3809EE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB8B7D6CE1417096983274DA1B5A2DAF /* Frameworks */ = {
+		E1E737EFA9478FFD4497633AA263C1AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FABD74C98DAC98A16CEEB5923F77746 /* Foundation.framework in Frameworks */,
+				00540E90DDD13C9F80EDBA6A3F6036FF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0648B1467FDB8A862E678E90C64F485F /* Development Pods */ = {
+		237762B40E871915E8A7686222A36F2B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				62AF9F46880CB6C33C58AC5C835C0617 /* ColorHSPicker */,
+				B029F715221F66259C5F0088A37E3B73 /* ColorHSPicker.modulemap */,
+				66E1AE24E516566E636A42EC2A7568E6 /* ColorHSPicker.xcconfig */,
+				871FF12EE05755D067428B32F7EBA3A5 /* ColorHSPicker-dummy.m */,
+				45CF64B9E61C09D248AAF08C0B4A8482 /* ColorHSPicker-prefix.pch */,
+				FFFB2ABAD9DABC490E14BACFBD61AE6E /* ColorHSPicker-umbrella.h */,
+				32E5BCAFE70E4493956C3B010B2D04A6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ColorHSPicker";
+			sourceTree = "<group>";
+		};
+		2F2BFE3095C164BCA184F27DF14330B9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DDC6C1FBD777F0FDF0C52FEE57378C24 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		361773E2B39B612BD5C8355993127EF6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C068473C0E2CD2A1B87AC3B09B5C466 /* ColorHSPicker */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		147C2FA4DDDDA26B127B4C085F636787 /* Classes */ = {
+		4CAE3F1E365BC5E503DF030193CEAFAB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				222AF38B1CAAB3FB00CD484B /* ThumbViewControl.swift */,
-				222AF38C1CAAB3FB00CD484B /* ColorHSPickerView.swift */,
+				2F2BFE3095C164BCA184F27DF14330B9 /* Pod */,
 			);
-			path = Classes;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		222AF3911CAAB61B00CD484B /* Assets */ = {
+		6C068473C0E2CD2A1B87AC3B09B5C466 /* ColorHSPicker */ = {
 			isa = PBXGroup;
 			children = (
-				222AF3921CAAB7D300CD484B /* colormap.png */,
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
-		62AF9F46880CB6C33C58AC5C835C0617 /* ColorHSPicker */ = {
-			isa = PBXGroup;
-			children = (
-				9729080E5C62E978D38E7C58197CC72F /* Pod */,
-				6B9042B78EE635AEC6BCAD0BBFE4CDEA /* Support Files */,
+				87DEE27CF8D158046889EB653F755861 /* Pod */,
+				4CAE3F1E365BC5E503DF030193CEAFAB /* Resources */,
+				237762B40E871915E8A7686222A36F2B /* Support Files */,
 			);
 			name = ColorHSPicker;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		6B9042B78EE635AEC6BCAD0BBFE4CDEA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C8238E21B64C5F990F6262AB108F0AA8 /* ColorHSPicker.modulemap */,
-				3BD94C1FE624C4F0EB30A034E8CCF426 /* ColorHSPicker.xcconfig */,
-				FA5AC4AC0C085C43A5CB0441C9E74B01 /* ColorHSPicker-dummy.m */,
-				CE4DD2EEC5B33142AD0CCFDB31975381 /* ColorHSPicker-prefix.pch */,
-				EABD833C479632F8FFB85269F8AF91CF /* ColorHSPicker-umbrella.h */,
-				FFCAB71E188712ED387A356426EDF531 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ColorHSPicker";
 			sourceTree = "<group>";
 		};
 		7D97D0F3A863EBD01E22E99265D614E7 /* Targets Support Files */ = {
@@ -181,11 +181,19 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				0648B1467FDB8A862E678E90C64F485F /* Development Pods */,
+				361773E2B39B612BD5C8355993127EF6 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B62A68E6D20119F4D8B551401A2C4964 /* Products */,
 				7D97D0F3A863EBD01E22E99265D614E7 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		87DEE27CF8D158046889EB653F755861 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CD2A94390EC32DA6A5C92F822EFACEC5 /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		92A9FFAA48AC07DC16A3627F17BAD7B7 /* Pods-ColorHSPicker_Example */ = {
@@ -224,15 +232,6 @@
 			path = "Target Support Files/Pods-ColorHSPicker_Tests";
 			sourceTree = "<group>";
 		};
-		9729080E5C62E978D38E7C58197CC72F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				222AF3911CAAB61B00CD484B /* Assets */,
-				147C2FA4DDDDA26B127B4C085F636787 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		B62A68E6D20119F4D8B551401A2C4964 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,17 +259,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CD2A94390EC32DA6A5C92F822EFACEC5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE8E1D7E86433C82A893594F63AF3952 /* ColorHSPickerView.swift */,
+				856B89CAEB0DFA611F7D78620B3CDD2C /* ThumbViewControl.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DDC6C1FBD777F0FDF0C52FEE57378C24 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A7DAA5032D5E3B371BCEB2C014E1F7BE /* colormap.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3995B68CF817878A0B793C072B172724 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				168F622AE3C799EDC4DC2EAA2BDF3373 /* ColorHSPicker-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4AE3A80EBB0F2A509F407961C9772E4F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +292,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F39E19182C7B2CAE158D20484BF32C9 /* Pods-ColorHSPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DE4365F54AD4CD723602BC9EDB9CFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4741FF2A6056C78C033A66C1B9D024 /* ColorHSPicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +324,23 @@
 			productReference = D25EF3CFB82E876727B6B79E11BAFEBB /* Pods_ColorHSPicker_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		3B0DDEFAB11470BB6106004C6725FFD0 /* ColorHSPicker-ColorHSPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BAF624DC89220BAF3ACD776B65D0F9B /* Build configuration list for PBXNativeTarget "ColorHSPicker-ColorHSPicker" */;
+			buildPhases = (
+				B6C0092824D9ED6AC17B273EA2AD0DAC /* Sources */,
+				89C5755D338883FEBDF7BFA7C3809EE1 /* Frameworks */,
+				632874E525F69FB6305B988C291E6F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorHSPicker-ColorHSPicker";
+			productName = "ColorHSPicker-ColorHSPicker";
+			productReference = A0752211ACB11934D6897EFC4B9AF453 /* ColorHSPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		66C675FED67959C55E95B213CBF6C772 /* Pods-ColorHSPicker_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AEB15A3621DFF7FC4600539405FA404 /* Build configuration list for PBXNativeTarget "Pods-ColorHSPicker_Tests" */;
@@ -326,41 +359,24 @@
 			productReference = 0DA102AE5ADE12D06C516A01E06FC054 /* Pods_ColorHSPicker_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7680DCE79A78212D0327CA7A93F5E75F /* ColorHSPicker */ = {
+		ACB2B30B66DC3A9DB3ED5BE76C1527ED /* ColorHSPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05F806AF667B4DBD29C06733AC658BE2 /* Build configuration list for PBXNativeTarget "ColorHSPicker" */;
+			buildConfigurationList = E8CE05A9B1DAD56A79E236F3DA5A7AB9 /* Build configuration list for PBXNativeTarget "ColorHSPicker" */;
 			buildPhases = (
-				BEC5C7F6FF62BDBC05F5D9CD17F62FDD /* Sources */,
-				EB8B7D6CE1417096983274DA1B5A2DAF /* Frameworks */,
-				BF373300E673D3C1EAB4E10F11233EDF /* Resources */,
-				3995B68CF817878A0B793C072B172724 /* Headers */,
+				B64A478F5DD5C2AF648CF5FE60A6B135 /* Sources */,
+				E1E737EFA9478FFD4497633AA263C1AC /* Frameworks */,
+				DA0254D81CE82B99290DB32FEF19E754 /* Resources */,
+				B1DE4365F54AD4CD723602BC9EDB9CFC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BB3C41E71FA926C883D434A757A21C3E /* PBXTargetDependency */,
+				033AE92A460DF8FFB233003586F06EA4 /* PBXTargetDependency */,
 			);
 			name = ColorHSPicker;
 			productName = ColorHSPicker;
 			productReference = 2322DFEEB203E4D9F21C5966B2E1738E /* ColorHSPicker.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		82836F5310A0146E8C8520DED54ED915 /* ColorHSPicker-ColorHSPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA1EFC52E86053091349FFD704A0C0AF /* Build configuration list for PBXNativeTarget "ColorHSPicker-ColorHSPicker" */;
-			buildPhases = (
-				2C0C1E662930DE939772847E6A4B8733 /* Sources */,
-				E633788A7093E1ED83175AD5FD5ED635 /* Frameworks */,
-				77F489501D2E7A54138F272CFD3B892B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ColorHSPicker-ColorHSPicker";
-			productName = "ColorHSPicker-ColorHSPicker";
-			productReference = A0752211ACB11934D6897EFC4B9AF453 /* ColorHSPicker.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -383,8 +399,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7680DCE79A78212D0327CA7A93F5E75F /* ColorHSPicker */,
-				82836F5310A0146E8C8520DED54ED915 /* ColorHSPicker-ColorHSPicker */,
+				ACB2B30B66DC3A9DB3ED5BE76C1527ED /* ColorHSPicker */,
+				3B0DDEFAB11470BB6106004C6725FFD0 /* ColorHSPicker-ColorHSPicker */,
 				25E1B481B871056C86C2214E1EF74273 /* Pods-ColorHSPicker_Example */,
 				66C675FED67959C55E95B213CBF6C772 /* Pods-ColorHSPicker_Tests */,
 			);
@@ -392,32 +408,25 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		77F489501D2E7A54138F272CFD3B892B /* Resources */ = {
+		632874E525F69FB6305B988C291E6F6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF373300E673D3C1EAB4E10F11233EDF /* Resources */ = {
+		DA0254D81CE82B99290DB32FEF19E754 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222AF3931CAAB7D300CD484B /* colormap.png in Resources */,
-				3F2157DCAE7B5772A3C335D063915020 /* ColorHSPicker.bundle in Resources */,
+				222AF3941CAABBF700CD484B /* colormap.png in Resources */,
+				4F191B82D81F347851EAB7E1D31B7D9E /* ColorHSPicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C0C1E662930DE939772847E6A4B8733 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		77A6D0BEB0993C6B88E485D839C76B2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,35 +443,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEC5C7F6FF62BDBC05F5D9CD17F62FDD /* Sources */ = {
+		B64A478F5DD5C2AF648CF5FE60A6B135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C4011A879EB2D9DD52084C23892C80F /* ColorHSPicker-dummy.m in Sources */,
-				222AF38E1CAAB3FB00CD484B /* ColorHSPickerView.swift in Sources */,
-				222AF38D1CAAB3FB00CD484B /* ThumbViewControl.swift in Sources */,
+				C1F279140F98F6C73A8288DD71651030 /* ColorHSPicker-dummy.m in Sources */,
+				AE6238B72718E604957470BF23698B05 /* ColorHSPickerView.swift in Sources */,
+				551CDFC274ABCA0873F0442D2A0FA9E8 /* ThumbViewControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C0092824D9ED6AC17B273EA2AD0DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		033AE92A460DF8FFB233003586F06EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ColorHSPicker-ColorHSPicker";
+			target = 3B0DDEFAB11470BB6106004C6725FFD0 /* ColorHSPicker-ColorHSPicker */;
+			targetProxy = 3E3FDAF5794D8E55BCA79410647529C1 /* PBXContainerItemProxy */;
+		};
 		8DFAC64EDDC2D05872615CAA67E93CD8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ColorHSPicker;
-			target = 7680DCE79A78212D0327CA7A93F5E75F /* ColorHSPicker */;
+			target = ACB2B30B66DC3A9DB3ED5BE76C1527ED /* ColorHSPicker */;
 			targetProxy = D8ED2D34999601999B24849B1AD47F5D /* PBXContainerItemProxy */;
-		};
-		BB3C41E71FA926C883D434A757A21C3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ColorHSPicker-ColorHSPicker";
-			target = 82836F5310A0146E8C8520DED54ED915 /* ColorHSPicker-ColorHSPicker */;
-			targetProxy = A6BC8B86CD8FC2506298785034F62B90 /* PBXContainerItemProxy */;
 		};
 		CC5F1D8E1EDE5FDE5297DE7488501228 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ColorHSPicker;
-			target = 7680DCE79A78212D0327CA7A93F5E75F /* ColorHSPicker */;
+			target = ACB2B30B66DC3A9DB3ED5BE76C1527ED /* ColorHSPicker */;
 			targetProxy = A7151FE328C00A8F451007BB28F2D054 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -532,9 +548,9 @@
 			};
 			name = Release;
 		};
-		259BB2B3C236DFD0CB07E5F4415CAF1A /* Debug */ = {
+		4B8DDC774A2C94DE38CDAE0B0C6D0D66 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BD94C1FE624C4F0EB30A034E8CCF426 /* ColorHSPicker.xcconfig */;
+			baseConfigurationReference = 66E1AE24E516566E636A42EC2A7568E6 /* ColorHSPicker.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -549,40 +565,15 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ColorHSPicker/ColorHSPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = ColorHSPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		2A0DB33DF35C65AB415E152568369A34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BD94C1FE624C4F0EB30A034E8CCF426 /* ColorHSPicker.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ColorHSPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
 			name = Release;
-		};
-		4495F2F58F0A2D1D41B17F0370E53972 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BD94C1FE624C4F0EB30A034E8CCF426 /* ColorHSPicker.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = ColorHSPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -622,33 +613,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		6DBF80DAFDB6A15A7B4980FF3F28BD99 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BD94C1FE624C4F0EB30A034E8CCF426 /* ColorHSPicker.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ColorHSPicker/ColorHSPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ColorHSPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ColorHSPicker/ColorHSPicker.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ColorHSPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		9D9DB93117DFE42DAA53B145F0D1991A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -711,6 +675,58 @@
 			};
 			name = Debug;
 		};
+		C12A7A71E58B5CF344BA95FCE8341C2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E1AE24E516566E636A42EC2A7568E6 /* ColorHSPicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ColorHSPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D859A960FF02AF4A29B4E3E326CB7264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E1AE24E516566E636A42EC2A7568E6 /* ColorHSPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorHSPicker/ColorHSPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorHSPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorHSPicker/ColorHSPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ColorHSPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2F86E63FDE125F9719DEDD151CA3C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E1AE24E516566E636A42EC2A7568E6 /* ColorHSPicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ColorHSPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		F3D4BAB8FFE90250E264BE99E6DD7564 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05468BDA2E29109F734B26555103A378 /* Pods-ColorHSPicker_Tests.debug.xcconfig */;
@@ -745,11 +761,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05F806AF667B4DBD29C06733AC658BE2 /* Build configuration list for PBXNativeTarget "ColorHSPicker" */ = {
+		1BAF624DC89220BAF3ACD776B65D0F9B /* Build configuration list for PBXNativeTarget "ColorHSPicker-ColorHSPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				259BB2B3C236DFD0CB07E5F4415CAF1A /* Debug */,
-				6DBF80DAFDB6A15A7B4980FF3F28BD99 /* Release */,
+				C12A7A71E58B5CF344BA95FCE8341C2C /* Debug */,
+				F2F86E63FDE125F9719DEDD151CA3C9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -781,11 +797,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA1EFC52E86053091349FFD704A0C0AF /* Build configuration list for PBXNativeTarget "ColorHSPicker-ColorHSPicker" */ = {
+		E8CE05A9B1DAD56A79E236F3DA5A7AB9 /* Build configuration list for PBXNativeTarget "ColorHSPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4495F2F58F0A2D1D41B17F0370E53972 /* Debug */,
-				2A0DB33DF35C65AB415E152568369A34 /* Release */,
+				D859A960FF02AF4A29B4E3E326CB7264 /* Debug */,
+				4B8DDC774A2C94DE38CDAE0B0C6D0D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

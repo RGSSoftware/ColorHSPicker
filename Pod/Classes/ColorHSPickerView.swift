@@ -145,9 +145,7 @@ public class ColorHSPickerView: UIControl {
     
     class func initColorMapImageView(image: UIImage) -> UIImageView {
         
-        
-        self.colorMapImageView = UIImageView(image: image)
-        let colorMapImageView = UIImageView(image: UIImage(named: "colormap"))
+        let colorMapImageView = UIImageView(image: image)
         colorMapImageView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
         colorMapImageView.layer.cornerRadius = 15;
         colorMapImageView.layer.masksToBounds = true

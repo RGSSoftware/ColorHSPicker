@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ColorHSPicker: 93677f9ad0c104b805720339e7f0b28dc2a01654
+  ColorHSPicker: c33b3b9df1ad62f8457b1adcee4e48102e9463c8
 
 COCOAPODS: 0.39.0
