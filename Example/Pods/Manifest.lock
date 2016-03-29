@@ -1,14 +1,14 @@
 PODS:
-  - ColorHSPicker (0.1.0)
+  - ColorHSPicker (0.1.6)
 
 DEPENDENCIES:
   - ColorHSPicker (from `../`)
 
 EXTERNAL SOURCES:
   ColorHSPicker:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  ColorHSPicker: c33b3b9df1ad62f8457b1adcee4e48102e9463c8
+  ColorHSPicker: a266e4297ce8856684abecf22462de807a8324d4
 
 COCOAPODS: 0.39.0
