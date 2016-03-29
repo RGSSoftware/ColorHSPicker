@@ -10,7 +10,7 @@
 		168F622AE3C799EDC4DC2EAA2BDF3373 /* ColorHSPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EABD833C479632F8FFB85269F8AF91CF /* ColorHSPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		222AF38D1CAAB3FB00CD484B /* ThumbViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AF38B1CAAB3FB00CD484B /* ThumbViewControl.swift */; };
 		222AF38E1CAAB3FB00CD484B /* ColorHSPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AF38C1CAAB3FB00CD484B /* ColorHSPickerView.swift */; };
-		222AF3901CAAB61800CD484B /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 222AF38F1CAAB61800CD484B /* colormap.png */; };
+		222AF3931CAAB7D300CD484B /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 222AF3921CAAB7D300CD484B /* colormap.png */; };
 		2F39E19182C7B2CAE158D20484BF32C9 /* Pods-ColorHSPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BB75C6FEB1DBCD22956AEDE8DC5F47 /* Pods-ColorHSPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2FABD74C98DAC98A16CEEB5923F77746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		3C4011A879EB2D9DD52084C23892C80F /* ColorHSPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5AC4AC0C085C43A5CB0441C9E74B01 /* ColorHSPicker-dummy.m */; };
@@ -53,7 +53,7 @@
 		0DA102AE5ADE12D06C516A01E06FC054 /* Pods_ColorHSPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorHSPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		222AF38B1CAAB3FB00CD484B /* ThumbViewControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbViewControl.swift; sourceTree = "<group>"; };
 		222AF38C1CAAB3FB00CD484B /* ColorHSPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHSPickerView.swift; sourceTree = "<group>"; };
-		222AF38F1CAAB61800CD484B /* colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colormap.png; sourceTree = "<group>"; };
+		222AF3921CAAB7D300CD484B /* colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = colormap.png; path = Assets/colormap.png; sourceTree = "<group>"; };
 		2322DFEEB203E4D9F21C5966B2E1738E /* ColorHSPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorHSPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CCC4C849628ADDEB3968521CE5B269 /* Pods-ColorHSPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorHSPicker_Tests-resources.sh"; sourceTree = "<group>"; };
 		2CBA768FFE287D6865E7B279A6A8B867 /* Pods-ColorHSPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorHSPicker_Example-dummy.m"; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		222AF3911CAAB61B00CD484B /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				222AF38F1CAAB61800CD484B /* colormap.png */,
+				222AF3921CAAB7D300CD484B /* colormap.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -403,7 +403,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222AF3901CAAB61800CD484B /* colormap.png in Resources */,
+				222AF3931CAAB7D300CD484B /* colormap.png in Resources */,
 				3F2157DCAE7B5772A3C335D063915020 /* ColorHSPicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
