@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		00540E90DDD13C9F80EDBA6A3F6036FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		222AF3B51CAADEB500CD484B /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DAA5032D5E3B371BCEB2C014E1F7BE /* colormap.png */; };
-		222AF3B91CAAE12F00CD484B /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = A7DAA5032D5E3B371BCEB2C014E1F7BE /* colormap.png */; };
+		222AF3BC1CAAE27C00CD484B /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 222AF3BB1CAAE27C00CD484B /* colormap.png */; };
+		222AF3BD1CAAE27C00CD484B /* colormap.png in Resources */ = {isa = PBXBuildFile; fileRef = 222AF3BB1CAAE27C00CD484B /* colormap.png */; };
 		2F39E19182C7B2CAE158D20484BF32C9 /* Pods-ColorHSPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00BB75C6FEB1DBCD22956AEDE8DC5F47 /* Pods-ColorHSPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44CD7161E6EF1DC29B70DE65FAB6012F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		4A4741FF2A6056C78C033A66C1B9D024 /* ColorHSPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB2ABAD9DABC490E14BACFBD61AE6E /* ColorHSPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,6 +52,7 @@
 		05468BDA2E29109F734B26555103A378 /* Pods-ColorHSPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorHSPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0CDB87A39BF174B55F1E017DFAD46085 /* Pods-ColorHSPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorHSPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0DA102AE5ADE12D06C516A01E06FC054 /* Pods_ColorHSPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorHSPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		222AF3BB1CAAE27C00CD484B /* colormap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colormap.png; sourceTree = "<group>"; };
 		2322DFEEB203E4D9F21C5966B2E1738E /* ColorHSPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorHSPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CCC4C849628ADDEB3968521CE5B269 /* Pods-ColorHSPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorHSPicker_Tests-resources.sh"; sourceTree = "<group>"; };
 		2CBA768FFE287D6865E7B279A6A8B867 /* Pods-ColorHSPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorHSPicker_Example-dummy.m"; sourceTree = "<group>"; };
@@ -71,7 +72,6 @@
 		97E5BEF63B7A49E558317B24BE5D382A /* Pods-ColorHSPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorHSPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A0752211ACB11934D6897EFC4B9AF453 /* ColorHSPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorHSPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BBEF888B0E62603C060FA41BA3AA80 /* Pods-ColorHSPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorHSPicker_Example-resources.sh"; sourceTree = "<group>"; };
-		A7DAA5032D5E3B371BCEB2C014E1F7BE /* colormap.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = colormap.png; sourceTree = "<group>"; };
 		B029F715221F66259C5F0088A37E3B73 /* ColorHSPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ColorHSPicker.modulemap; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2B7D62E47DB9AA19296381F7A553416 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -272,7 +272,7 @@
 		DDC6C1FBD777F0FDF0C52FEE57378C24 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				A7DAA5032D5E3B371BCEB2C014E1F7BE /* colormap.png */,
+				222AF3BB1CAAE27C00CD484B /* colormap.png */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -413,7 +413,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222AF3B91CAAE12F00CD484B /* colormap.png in Resources */,
+				222AF3BD1CAAE27C00CD484B /* colormap.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +421,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222AF3B51CAADEB500CD484B /* colormap.png in Resources */,
+				222AF3BC1CAAE27C00CD484B /* colormap.png in Resources */,
 				4F191B82D81F347851EAB7E1D31B7D9E /* ColorHSPicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
