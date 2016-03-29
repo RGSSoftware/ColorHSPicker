@@ -47,7 +47,10 @@ public class ColorHSPickerView: UIControl {
     init (){
         self.thumbView = ColorHSPickerView.initThumbViewControl()
         self.contentView = ColorHSPickerView.initContentView()
-        self.colorMapImageView = ColorHSPickerView.initColorMapImageView()
+        
+        let bundle = NSBundle(forClass: self.dynamicType)
+        let image = UIImage(named: "colormap", inBundle: bundle, compatibleWithTraitCollection: nil)
+        self.colorMapImageView = ColorHSPickerView.initColorMapImageView(image!)
         
         super.init(frame: CGRect.zero)
         
@@ -63,7 +66,10 @@ public class ColorHSPickerView: UIControl {
         
         self.thumbView = ColorHSPickerView.initThumbViewControl()
         self.contentView = ColorHSPickerView.initContentView()
-        self.colorMapImageView = ColorHSPickerView.initColorMapImageView()
+        
+        let bundle = NSBundle(forClass: self.dynamicType)
+        let image = UIImage(named: "colormap", inBundle: bundle, compatibleWithTraitCollection: nil)
+        self.colorMapImageView = ColorHSPickerView.initColorMapImageView(image!)
         
         super.init(frame: frame)
         
@@ -80,7 +86,10 @@ public class ColorHSPickerView: UIControl {
         
         self.thumbView = ColorHSPickerView.initThumbViewControl()
         self.contentView = ColorHSPickerView.initContentView()
-        self.colorMapImageView = ColorHSPickerView.initColorMapImageView()
+        
+        let bundle = NSBundle(forClass: self.dynamicType)
+        let image = UIImage(named: "colormap", inBundle: bundle, compatibleWithTraitCollection: nil)
+        self.colorMapImageView = ColorHSPickerView.initColorMapImageView(image!)
         
         super.init(coder: aDecoder)
         
@@ -134,7 +143,10 @@ public class ColorHSPickerView: UIControl {
         return contentView
     }
     
-    class func initColorMapImageView() -> UIImageView {
+    class func initColorMapImageView(image: UIImage) -> UIImageView {
+        
+        
+        self.colorMapImageView = UIImageView(image: image)
         let colorMapImageView = UIImageView(image: UIImage(named: "colormap"))
         colorMapImageView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
         colorMapImageView.layer.cornerRadius = 15;
