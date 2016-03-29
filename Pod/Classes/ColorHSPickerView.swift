@@ -48,9 +48,15 @@ public class ColorHSPickerView: UIControl {
         self.thumbView = ColorHSPickerView.initThumbViewControl()
         self.contentView = ColorHSPickerView.initContentView()
         
-        let bundle = NSBundle(forClass: self.dynamicType)
-        let image = UIImage(named: "colormap", inBundle: bundle, compatibleWithTraitCollection: nil)
-        self.colorMapImageView = ColorHSPickerView.initColorMapImageView(image!)
+        let path = NSBundle(forClass: self.dynamicType).pathForResource("ColorHSPicker", ofType: "bundle")
+        let bundle = NSBundle(path: path!)
+        
+        let imagePath = bundle?.pathForResource("colormap", ofType: "png")
+        let url = NSURL(fileURLWithPath: imagePath!)
+        let data = NSData(contentsOfURL: url)
+        let image = UIImage(data: data!)!
+        
+        self.colorMapImageView = ColorHSPickerView.initColorMapImageView(image)
         
         super.init(frame: CGRect.zero)
         
@@ -67,9 +73,15 @@ public class ColorHSPickerView: UIControl {
         self.thumbView = ColorHSPickerView.initThumbViewControl()
         self.contentView = ColorHSPickerView.initContentView()
         
-        let bundle = NSBundle(forClass: self.dynamicType)
-        let image = UIImage(named: "colormap", inBundle: bundle, compatibleWithTraitCollection: nil)
-        self.colorMapImageView = ColorHSPickerView.initColorMapImageView(image!)
+        let path = NSBundle(forClass: self.dynamicType).pathForResource("ColorHSPicker", ofType: "bundle")
+        let bundle = NSBundle(path: path!)
+        
+        let imagePath = bundle?.pathForResource("colormap", ofType: "png")
+        let url = NSURL(fileURLWithPath: imagePath!)
+        let data = NSData(contentsOfURL: url)
+        let image = UIImage(data: data!)!
+        
+        self.colorMapImageView = ColorHSPickerView.initColorMapImageView(image)
         
         super.init(frame: frame)
         
@@ -87,10 +99,15 @@ public class ColorHSPickerView: UIControl {
         self.thumbView = ColorHSPickerView.initThumbViewControl()
         self.contentView = ColorHSPickerView.initContentView()
         
-        let bundle = NSBundle(forClass: self.dynamicType)
-        let image = UIImage(named: "colormap", inBundle: bundle, compatibleWithTraitCollection: nil)
-//        image = UIImage(named: "colormap")
-        self.colorMapImageView = ColorHSPickerView.initColorMapImageView(image!)
+        let path = NSBundle(forClass: self.dynamicType).pathForResource("ColorHSPicker", ofType: "bundle")
+        let bundle = NSBundle(path: path!)
+
+        let imagePath = bundle?.pathForResource("colormap", ofType: "png")
+        let url = NSURL(fileURLWithPath: imagePath!)
+        let data = NSData(contentsOfURL: url)
+        let image = UIImage(data: data!)!
+
+        self.colorMapImageView = ColorHSPickerView.initColorMapImageView(image)
         
         super.init(coder: aDecoder)
         
