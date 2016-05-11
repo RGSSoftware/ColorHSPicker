@@ -6,7 +6,7 @@
 
 An HS color-picker for the iOS.
 
-<img src="https://raw.github.com/RGSSoftware/ColorHSPicker/blob/master/screenshot.png" alt="iPhone 5" width="396" />
+<img src="https://github.com/RGSSoftware/ColorHSPicker/blob/master/screenshot.png" alt="iPhone 5" width="396" />
 
 ## Installation
 
