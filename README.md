@@ -18,7 +18,7 @@ pod "ColorHSPicker"
 ```
 
 ## Using a ColorHSPicker from a View Controller
-```objc
+```swift
 
 import ColorHSPicker
 
