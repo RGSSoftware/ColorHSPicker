@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/ColorHSPicker.svg?style=flat)](http://cocoapods.org/pods/ColorHSPicker)
 [![Platform](https://img.shields.io/cocoapods/p/ColorHSPicker.svg?style=flat)](http://cocoapods.org/pods/ColorHSPicker)
 
-An HS color-picker for the iOS.
+A hue and saturation color-picker for iOS.
 
 <img src="https://github.com/RGSSoftware/ColorHSPicker/blob/master/screenshot.png" alt="iPhone 5" width="396" />
 
